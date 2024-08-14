@@ -1,9 +1,9 @@
-from model import SimpleRAGModel
+from model import SmarterRAGModel
 
 def main():
     print("Welcome to TolstoyTalk!")
     print("Loading War and Peace model...")
-    model = SimpleRAGModel('war_and_peace_processed.txt')
+    model = SmarterRAGModel('war_and_peace_processed.txt')
     print("Model loaded. You can now start a conversation.")
     print("Type 'quit' to exit.")
 
